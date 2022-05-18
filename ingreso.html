@@ -1,0 +1,31 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ingresar Usuarios</title>
+</head>
+<body bgcolor="white">
+	<h1 align="center">Alta de estudiantes</h1>
+		<form action="./paginas/ingreso.php"method="post">
+	<table border="1"bgcolor="#00B6DE"align="center">
+	<tr>
+		<td>Ingrese nombre:</td>
+		<td><input type="text"name="nombre"></td>
+	</tr>
+	<tr>
+		<td>Ingrese mail:</td>
+		<td><input type="text"name="mail"></td>
+	</tr>
+	<tr>
+		<td>Seleccione el curso:</td>
+	<td align="center"><select name="codigocurso">
+		<option value="1">PHP</option>
+		<option value="2">ASP</option>
+	<option value="3">JSP</option>
+	</select></td>
+	</tr>
+		<tr align="center">
+	<td><input type="submit"value="Registrar"></td>
+	<td><input type="reset"value="Borrar información"></td>
+	</tr>
+</table>
